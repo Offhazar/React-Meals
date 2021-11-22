@@ -45,6 +45,7 @@ const AvailbleMeals = (props) => {
           {DATA.map((item) => {
             return (
               <MealItem
+                id={item.id}
                 key={item.id}
                 name={item.name}
                 description={item.description}
